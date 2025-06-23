@@ -23,7 +23,7 @@ Ce projet vise à fournir une plateforme web moderne et accessible pour la paroi
 
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/antonioramana/FJKM-WAGNER.git
+   git clone https://github.com/santoniio261/fjkm-wagner--vf.git
    ```
 
 2. Ouvrez le dossier du projet dans votre éditeur de code préféré.
