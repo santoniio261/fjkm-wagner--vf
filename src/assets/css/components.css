@@ -1,0 +1,134 @@
+/* Mobile menu styles */
+.mobile-menu {
+    display: none;
+}
+
+/* Navbar styles */
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.75rem 1rem;
+}
+
+.navbar-logo {
+    height: 4rem;
+    width: auto;
+}
+
+/* Desktop Navigation */
+.navbar-menu {
+    display: none;
+}
+
+.navbar-link {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #A4DCFF;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .mobile-menu-button {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile-menu {
+        display: block;
+    }
+    
+    .mobile-menu-button {
+        display: block;
+    }
+}
+
+/* Tablet and medium screen styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .navbar-menu {
+        gap: 1rem;
+    }
+    
+    .navbar-menu a {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+}
+
+/* Card styles */
+.card:hover {
+    transform: scale-105;
+    transition-transform: duration-300;
+}
+
+.card-image {
+    width: 100%;
+    height: 64px;
+    object-fit: cover;
+}
+
+/* Section title styles */
+.section-title {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* Section subtitle styles */
+.section-subtitle {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6B7280;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #A4DCFF;
+    color: #000000;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #FFF5EB;
+    transform: translateY(-2px);
+}
+
+.btn-primary-sm {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 1023px) {
+    .btn-primary {
+        padding: 0.5rem 1.5rem;
+    }
+} 
+
+@keyframes bounceDownUp {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.animate-bounce-down-up {
+  animation: bounceDownUp 1.2s infinite ease-in-out;
+}

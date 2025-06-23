@@ -1,0 +1,49 @@
+/* Base styles */
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Custom background colors */
+.customized-bg-gray {
+    background-color: #161722;
+}
+
+.customized-bg-grey {
+    background-color: #F5F2F0;
+}
+
+.customized-bg-black {
+    background-color: #0D0D0D;
+}
+
+.customized-bg-blue {
+    background-color: #A4DCFF;
+}
+
+/* Custom yellow backgrounds */
+.customized-bg-yellow{
+    background-color: #FED18C;
+}
+.customized-bg-yellow-1 {
+    background-color: #FFF5EB;
+}
+
+.customized-bg-yellow-2 {
+    background-color: #F2C79B;
+}
+
+.customized-bg-yellow-3 {
+    background-color: #FFD0A0;
+}
+
+/* Custom text colors */
+.customized-text-yellow-3 {
+    color: #c47d36;
+} 
+.customized-text-primary{
+    color: #A4DCFF;
+}
+.customized-text-yellow{
+    color: #FED18C;
+}
+
